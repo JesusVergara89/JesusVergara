@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.portafolio {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 240px;
+  margin-left: calc(50% - 120px);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
+.container-media-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, auto); 
+  gap: 10px;
+}
+
+.container-media-project img {
+  width: 100%; 
+  height: auto;
+}
+
+.container-media-project-unibarranquilla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+
+.container-media-project-unibarranquilla img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+span{
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+}
+
+@media ( width < 500px){
+  .portafolio {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+  }
+  .profile-img {
+    width: 70%;
+  }
+}
