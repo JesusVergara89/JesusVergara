@@ -28,6 +28,38 @@ p {
   font-size: 1.2rem;
   color: #666;
 }
+
+.technologies {
+  all: unset;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(180, 180, 180);
+  padding: 20px 10px 20px 10px;
+  margin-top: 50px;
+}
+
+.technologies-item {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.technologies-item h5 {
+  all: unset;
+}
+
+.technologies-item .bx {
+  font-size: 2rem;
+}
 .container-media-project {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 

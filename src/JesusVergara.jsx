@@ -31,16 +31,40 @@ function App() {
           <h2>Sobre Mí</h2>
           <p>Soy ingeniero mecatrónico apasionado por la programación y la creación de diseños en forma de sitios web. Disfruto explorar distintos lenguajes de programación y descubrir las posibilidades que ofrecen. Mi objetivo es combinar mis habilidades técnicas y creativas para desarrollar soluciones innovadoras y funcionales en el diseño web.</p>
           <h2>Tecnologías en donde me especializo</h2>
-          <ul>
-            <li>React</li>
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Typescript</li>
-            <li>WordPress</li>
-            <li>Shopify</li>
-            <li>Firebase</li>
-          </ul>
+          <div className='technologies'>
+            <div className="technologies-item">
+              <h5>React</h5>
+              <i className='bx bxl-react'></i>
+            </div>
+            <div className="technologies-item">
+              <h5>Javascript</h5>
+              <i className='bx bxl-javascript' ></i>
+            </div>
+            <div className="technologies-item">
+              <h5>HTML</h5>
+              <i className='bx bxl-html5' ></i>
+            </div>
+            <div className="technologies-item">
+              <h5>CSS</h5>
+              <i className='bx bxl-css3' ></i>
+            </div>
+            <div className="technologies-item">
+              <h5>Typescript</h5>
+              <i className='bx bxl-typescript' ></i>
+            </div>
+            <div className="technologies-item">
+              <h5>WordPress</h5>
+              <i className='bx bxl-wordpress' ></i>
+            </div>
+            <div className="technologies-item">
+              <h5>Shopify</h5>
+              <i className='bx bxl-shopify' ></i>
+            </div>
+            <div className="technologies-item">
+              <h5>Firebase</h5>
+              <i className='bx bxl-firebase' ></i>
+            </div>
+          </div>
         </section>
 
         <section>
