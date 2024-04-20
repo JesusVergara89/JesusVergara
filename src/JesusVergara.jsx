@@ -28,15 +28,15 @@ function App() {
 
       <header>
         <h1>Jesus Manuel Vergara</h1>
-        <p>Bienvenido a mi portafolio. Aquí puedes encontrar algunos de mis proyectos y aprender más sobre mí.</p>
+        <p>Welcome to my portfolio. Here you can find some of my projects and learn more about me.</p>
       </header>
 
       <main>
         <section>
           <img className='profile-img' src={jesus} alt="" />
-          <h2>Sobre Mí</h2>
-          <p>Soy ingeniero mecatrónico apasionado por la programación y la creación de diseños en forma de sitios web. Disfruto explorar distintos lenguajes de programación y descubrir las posibilidades que ofrecen. Mi objetivo es combinar mis habilidades técnicas y creativas para desarrollar soluciones innovadoras y funcionales en el diseño web.</p>
-          <h2>Tecnologías en donde me especializo</h2>
+          <h2>About Me</h2>
+          <p>I am a mechatronics engineer passionate about programming and creating designs in the form of websites. I enjoy exploring different programming languages and discovering the possibilities they offer. My goal is to combine my technical and creative skills to develop innovative and functional solutions in web design.</p>
+          <h2>Technologies I specialize in</h2>
           <div className='technologies'>
             <div className="technologies-item">
               <h5>React</h5>
@@ -82,19 +82,19 @@ function App() {
         </section>
 
         <section>
-          <h2>Proyectos</h2>
+          <h2>Projects</h2>
           <ul>
             <li>
-              <h3>Diseño y construcción de la red social - Social</h3>
-              <p>"Social" es una red social diseñada y construida para ofrecer a los usuarios una plataforma interactiva y dinámica para conectarse, compartir contenido y comunicarse en línea. Con un enfoque en la usabilidad y la experiencia del usuario, esta red social proporciona una amplia gama de características y funcionalidades para satisfacer las necesidades de sus usuarios.</p>
-              <p><span>Características:</span></p>
+              <h3>Design and construction of the social network - Social</h3>
+              <p>"Social" is a social network designed and built to offer users an interactive and dynamic platform to connect, share content, and communicate online. With a focus on usability and user experience, this social network provides a wide range of features and functionalities to meet the needs of its users.</p>
+              <p><span>Features:</span></p>
               <ul>
-                <li><span>Registro de cuenta:</span> Los usuarios pueden crear fácilmente una cuenta en "Social" proporcionando información básica y una dirección de correo electrónico válida.</li>
-                <li><span>Perfil de usuario:</span> Cada usuario tiene un perfil personalizado donde pueden agregar detalles sobre sí mismos, incluyendo una foto de perfil y una breve biografía.</li>
-                <li><span>Publicación de contenido multimedia:</span> Los usuarios pueden compartir fotos y videos con sus seguidores, lo que les permite expresarse y compartir momentos importantes de sus vidas.</li>
-                <li><span>Interacción social:</span> Los usuarios pueden hacer publicaciones en su feed de noticias, comentar las publicaciones de otros usuarios y dar "me gusta" a contenido que encuentren interesante.</li>
-                <li><span>Conexión y búsqueda de amigos:</span> "Social" permite a los usuarios buscar y conectarse con amigos, colegas y familiares, así como enviar y recibir solicitudes de amistad.</li>
-                <li><span>Mensajería instantánea:</span> La plataforma ofrece mensajería instantánea en tiempo real, lo que permite a los usuarios comunicarse de forma privada con amigos y seguidores.</li>
+                <li><span>Account registration:</span> Users can easily create an account on "Social" by providing basic information and a valid email address.</li>
+                <li><span>User profile:</span> Each user has a personalized profile where they can add details about themselves, including a profile picture and a brief biography.</li>
+                <li><span>Posting multimedia content:</span> Users can share photos and videos with their followers, allowing them to express themselves and share important moments from their lives.</li>
+                <li><span>Social interaction:</span> Users can make posts on their news feed, comment on other users' posts, and like content they find interesting.</li>
+                <li><span>Connection and friend search:</span> "Social" allows users to search for and connect with friends, colleagues, and family members, as well as send and receive friend requests.</li>
+                <li><span>Instant messaging:</span> The platform offers real-time instant messaging, allowing users to privately communicate with friends and followers.</li>
               </ul>
               <div className="container-media-project">
                 <img src={sn1} alt="" />
@@ -107,7 +107,7 @@ function App() {
               <br />
               <br />
               <br />
-              <a href="https://socialv01.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto: Social</a>
+              <a href="https://socialv01.netlify.app/" target="_blank" rel="noopener noreferrer">View project: Social</a>
               <br />
               <br />
               <br />
@@ -116,16 +116,16 @@ function App() {
               <br />
             </li>
             <li>
-              <h3>Diseño y construcción del periodico universitario Unibarranquillanewspaper</h3>
-              <p>El proyecto "Unibarranquillanewspaper" es un periódico universitario digital diseñado y construido para la comunidad universitaria y el público en general. Este periódico está integrado por usuarios, cada uno con sus propias credenciales de acceso, y cada usuario es responsable de una sección específica del periódico.</p>
-              <p><span>Características:</span></p>
+              <h3>Design and construction of the university newspaper Unibarranquillanewspaper</h3>
+              <p>The "Unibarranquillanewspaper" project is a digital university newspaper designed and built for the university community and the general public. This newspaper is composed of users, each with their own access credentials, and each user is responsible for a specific section of the newspaper.</p>
+              <p><span>Features:</span></p>
               <ul>
-                <li><span>Gestión de usuarios:</span> El periódico permite la creación de cuentas de usuario para los colaboradores, quienes tienen acceso individualizado a su sección asignada. Cada usuario puede eliminar y editar solo sus propios artículos, lo que garantiza la autonomía y responsabilidad editorial.</li>
-                <li><span>Secciones temáticas:</span> Cada sección del periódico está dedicada a noticias, artículos y temas relevantes relacionados con la ciencia, la tecnología, la sociedad y la vida universitaria. Esto garantiza una cobertura amplia y diversa de temas de interés para la comunidad universitaria y el público en general.</li>
-                <li><span>Publicación de contenido:</span> Los colaboradores pueden publicar noticias, artículos y contenido multimedia en sus respectivas secciones, lo que permite una actualización regular del periódico con información relevante y oportuna.</li>
-                <li><span>Interacción y participación:</span> Los lectores tienen la capacidad de interactuar con el contenido del periódico a través de comentarios, compartiendo en redes sociales y participando en encuestas y debates, fomentando así la participación activa de la comunidad en el periódico.</li>
-                <li><span>Soporte de LaTeX:</span> El periódico es compatible con el formato LaTeX, lo que permite a los colaboradores incluir ecuaciones matemáticas de alto grado en sus artículos y publicaciones. Esto facilita la presentación precisa y profesional de contenido científico y técnico.</li>
-                <li><span>Blog comunitario:</span> Además de las secciones temáticas, el proyecto cuenta con un blog donde la comunidad puede opinar, comentar y expresarse libremente sobre diversos temas de interés. Esto promueve el intercambio de ideas y la participación activa de la comunidad universitaria.</li>
+                <li><span>User management:</span> The newspaper allows the creation of user accounts for collaborators, who have individualized access to their assigned section. Each user can delete and edit only their own articles, ensuring editorial autonomy and responsibility.</li>
+                <li><span>Thematic sections:</span> Each section of the newspaper is dedicated to news, articles, and relevant topics related to science, technology, society, and university life. This ensures broad and diverse coverage of topics of interest to the university community and the general public.</li>
+                <li><span>Content publication:</span> Collaborators can publish news, articles, and multimedia content in their respective sections, allowing for regular updates to the newspaper with relevant and timely information.</li>
+                <li><span>Interaction and participation:</span> Readers have the ability to interact with the newspaper's content through comments, sharing on social networks, and participating in surveys and debates, thus fostering active participation from the community in the newspaper.</li>
+                <li><span>LaTeX support:</span> The newspaper is compatible with the LaTeX format, allowing collaborators to include high-degree mathematical equations in their articles and publications. This facilitates the precise and professional presentation of scientific and technical content.</li>
+                <li><span>Community blog:</span> In addition to thematic sections, the project features a blog where the community can express opinions, comment, and express themselves freely on various topics of interest. This promotes the exchange of ideas and active participation from the university community.</li>
               </ul>
               <div className="container-media-project-unibarranquilla">
                 <img src={sn1p} alt="" />
@@ -140,7 +140,7 @@ function App() {
               <br />
               <br />
               <br />
-              <a href="https://unibarranquilla-newspaper.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto: Unibarranquillanews</a>
+              <a href="https://unibarranquilla-newspaper.netlify.app/" target="_blank" rel="noopener noreferrer">View project: Unibarranquillanews</a>
               <br />
               <br />
               <br />
@@ -150,13 +150,13 @@ function App() {
             </li>
 
             <li>
-              <h3>Diseño y construcción de una Aplicacón web para calcular presupuesto de instalaciones fotovoltaicas.</h3>
-              <p>El proyecto BarmexApp, una aplicación web diseñada para generar presupuestos de instalaciones fotovoltaicas utilizando únicamente la factura mensual de electricidad. Nuestra plataforma simplifica el proceso de calcular el costo, permitiendo a los usuarios tomar decisiones informadas sobre la implementación de sistemas fotovoltaicos.</p>
-              <p><span>Características:</span></p>
+              <h3>Design and construction of a web application for calculating budgets for photovoltaic installations.</h3>
+              <p>The BarmexApp project, a web application designed to generate budgets for photovoltaic installations using only the monthly electricity bill. Our platform simplifies the process of calculating the cost, allowing users to make informed decisions about the implementation of photovoltaic systems.</p>
+              <p><span>Features:</span></p>
               <ul>
-                <li><span>Análisis de Facturas:</span> Con sensillos datos de la factura mensual de electricidad a nuestra plataforma para comenzar el análisis.</li>
-                <li><span>Generación de Presupuestos:</span> Obtén un presupuesto detallado para la instalación de un sistema fotovoltaico basado en tu consumo eléctrico mensual.</li>
-                <li><span>Personalización de Configuraciones:</span> Personaliza las características del sistema fotovoltaico, como la capacidad y la ubicación, para obtener estimaciones precisas.</li>
+                <li><span>Invoice Analysis:</span> Enter simple data from your monthly electricity bill into our platform to start the analysis.</li>
+                <li><span>Budget Generation:</span> Get a detailed budget for the installation of a photovoltaic system based on your monthly electricity consumption.</li>
+                <li><span>Customization of Configurations:</span> Customize the characteristics of the photovoltaic system, such as capacity and location, to obtain accurate estimates.</li>
               </ul>
               <div className="container-media-project-solarapp">
                 <img src={ss1p} alt="" />
@@ -167,7 +167,7 @@ function App() {
               <br />
               <br />
               <br />
-              <a href="https://barmexapp.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto: BarmexApp</a>
+              <a href="https://barmexapp.netlify.app/" target="_blank" rel="noopener noreferrer">View project: BarmexApp</a>
               <br />
               <br />
               <br />
@@ -181,8 +181,8 @@ function App() {
       </main>
 
       <footer>
-        <p>Contáctame: jesusmanuelv1989@gmail.com</p>
-        <p>Sígueme en redes sociales: <a href="https://github.com/JesusVergara89" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://www.linkedin.com/in/jesus-manuel-vergara-975799216/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        <p>Contact me: jesusmanuelv1989@gmail.com</p>
+        <p>Follow me on social media: <a href="https://github.com/JesusVergara89" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://www.linkedin.com/in/jesus-manuel-vergara-975799216/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
       </footer>
     </div>
   )
