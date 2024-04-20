@@ -150,6 +150,32 @@ footer {
   color: #666;
 }
 
+.experience {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.job {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.job h3 {
+  margin-top: 0;
+  color: #989898;
+}
+
+.job p {
+  margin: 10px 0;
+  color: #010101;
+}
+
+.job p strong {
+  font-weight: bold;
+}
+
 @media (width < 500px) {
   .portafolio {
     font-family: Arial, sans-serif;

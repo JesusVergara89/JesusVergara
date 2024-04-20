@@ -180,6 +180,21 @@ function App() {
         </section>
       </main>
 
+      <div class="experience">
+        <h2>Work experience</h2>
+        <div class="job">
+          <h3>Front End developer</h3>
+          <p><strong>Company:</strong> Digitraffic</p>
+          <p><strong>Dates:</strong> Jan/2022 - Nov/2023</p>
+          <p><strong>Description:</strong> As a Frontend Developer, my main responsibility was to develop custom web pages, adhering to designs provided and using technologies like React. Additionally, I managed code versions using tools like Git, and performed CRUD (Create, Read, Update, Delete) operations to ensure application functionality. I worked efficiently under pressure to meet deadlines and deliver high-quality products in a dynamic and demanding environment.</p>
+        </div>
+        <div class="job">
+          <h3>Front End developer</h3>
+          <p><strong>Company:</strong> Barmex Energy</p>
+          <p><strong>Dates:</strong> Jun/2020 - Dec/2021</p>
+          <p><strong>Description:</strong> As a Frontend Developer, my main responsibility was to develop custom web pages, adhering to designs provided and using technologies like React. Additionally, I worked collaboratively within a team environment on various projects, including BarmexApp. I managed code versions using tools like Git to ensure efficient collaboration and application stability. Excelling under pressure, I consistently met deadlines and delivered high-quality products in a dynamic and demanding environment.</p>
+        </div>
+      </div>
       <footer>
         <p>Contact me: jesusmanuelv1989@gmail.com</p>
         <p>Follow me on social media: <a href="https://github.com/JesusVergara89" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://www.linkedin.com/in/jesus-manuel-vergara-975799216/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
