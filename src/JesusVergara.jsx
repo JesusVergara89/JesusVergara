@@ -70,6 +70,14 @@ function App() {
               <h5>Firebase</h5>
               <i className='bx bxl-firebase' ></i>
             </div>
+            <div className="technologies-item">
+              <h5>Git</h5>
+              <i className='bx bxl-git'></i>
+            </div>
+            <div className="technologies-item">
+              <h5>Github</h5>
+              <i className='bx bxl-github' ></i>
+            </div>
           </div>
         </section>
 
@@ -173,8 +181,8 @@ function App() {
       </main>
 
       <footer>
-        <p>Contáctame: correo@example.com</p>
-        <p>Sígueme en redes sociales: <a href="https://twitter.com/tucuenta">Twitter</a>, <a href="https://linkedin.com/tuperfil">LinkedIn</a></p>
+        <p>Contáctame: jesusmanuelv1989@gmail.com</p>
+        <p>Sígueme en redes sociales: <a href="https://github.com/JesusVergara89" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://www.linkedin.com/in/jesus-manuel-vergara-975799216/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
       </footer>
     </div>
   )

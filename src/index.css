@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 20px;
+  background-color: #333333;
+  color: #ececec; 
 }
 
 .portafolio {
@@ -29,7 +31,6 @@ h1 {
 
 p {
   font-size: 1.2rem;
-  color: #666;
 }
 
 .technologies {
@@ -41,8 +42,8 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: rgb(180, 180, 180);
-  padding: 20px 0px 20px 0px;
+  background-color: #666666;
+  padding: 20px 0;
   margin-top: 50px;
 }
 
@@ -54,7 +55,8 @@ p {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px;
+  margin-top: 20px;
 }
 
 .technologies-item h5 {
@@ -67,13 +69,13 @@ p {
 
 .container-media-project {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(3, auto); 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
   gap: 10px;
 }
 
 .container-media-project img {
-  width: 100%; 
+  width: 100%;
   height: auto;
 }
 
@@ -92,7 +94,7 @@ p {
 }
 
 .container-media-project-solarapp img {
-  width: 100%; 
+  width: 100%;
   height: auto;
 }
 
@@ -123,7 +125,7 @@ li {
   margin-bottom: 20px;
 }
 
-span{
+span {
   font-weight: bold;
 }
 
@@ -147,7 +149,7 @@ footer {
   color: #666;
 }
 
-@media ( width < 500px){
+@media (width < 500px) {
   .portafolio {
     font-family: Arial, sans-serif;
     max-width: 800px;
