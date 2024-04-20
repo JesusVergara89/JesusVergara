@@ -15,6 +15,12 @@ import sn6p from './images/6p.jpeg'
 import sn7p from './images/7p.jpeg'
 import sn8p from './images/8p.jpeg'
 
+import ss1p from './images/1s.jpeg'
+import ss2p from './images/2s.jpeg'
+import ss3p from './images/3s.jpeg'
+import ss4p from './images/4s.jpeg'
+
+
 function App() {
 
   return (
@@ -93,7 +99,7 @@ function App() {
               <br />
               <br />
               <br />
-              <a href="enlace_al_proyecto_1" target="_blank" rel="noopener noreferrer">Ver proyecto: Social</a>
+              <a href="https://socialv01.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto: Social</a>
               <br />
               <br />
               <br />
@@ -126,7 +132,7 @@ function App() {
               <br />
               <br />
               <br />
-              <a href="enlace_al_proyecto_1" target="_blank" rel="noopener noreferrer">Ver proyecto: Unibarranquillanews</a>
+              <a href="https://unibarranquilla-newspaper.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto: Unibarranquillanews</a>
               <br />
               <br />
               <br />
@@ -134,17 +140,34 @@ function App() {
               <br />
               <br />
             </li>
+
             <li>
-              <h3>Proyecto 3</h3>
-              <p>Descripción del proyecto 3. Aquí puedes escribir algunas características clave del proyecto 3.</p>
-              <p>Características:</p>
+              <h3>Diseño y construcción de una Aplicacón web para calcular presupuesto de instalaciones fotovoltaicas.</h3>
+              <p>El proyecto BarmexApp, una aplicación web diseñada para generar presupuestos de instalaciones fotovoltaicas utilizando únicamente la factura mensual de electricidad. Nuestra plataforma simplifica el proceso de calcular el costo, permitiendo a los usuarios tomar decisiones informadas sobre la implementación de sistemas fotovoltaicos.</p>
+              <p><span>Características:</span></p>
               <ul>
-                <li>Característica 1 del Proyecto 3</li>
-                <li>Característica 2 del Proyecto 3</li>
-                <li>Característica 3 del Proyecto 3</li>
+                <li><span>Análisis de Facturas:</span> Con sensillos datos de la factura mensual de electricidad a nuestra plataforma para comenzar el análisis.</li>
+                <li><span>Generación de Presupuestos:</span> Obtén un presupuesto detallado para la instalación de un sistema fotovoltaico basado en tu consumo eléctrico mensual.</li>
+                <li><span>Personalización de Configuraciones:</span> Personaliza las características del sistema fotovoltaico, como la capacidad y la ubicación, para obtener estimaciones precisas.</li>
               </ul>
-              <a href="enlace_al_proyecto_3">Ver proyecto 3</a>
+              <div className="container-media-project-solarapp">
+                <img src={ss1p} alt="" />
+                <img src={ss2p} alt="" />
+                <img src={ss3p} alt="" />
+                <img src={ss4p} alt="" />
+              </div>
+              <br />
+              <br />
+              <br />
+              <a href="https://barmexapp.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto: BarmexApp</a>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </li>
+
           </ul>
         </section>
       </main>

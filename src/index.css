@@ -11,8 +11,11 @@ body {
 }
 
 .profile-img {
-  width: 240px;
-  margin-left: calc(50% - 120px);
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-left: calc(50% - 110px);
+  object-fit: cover;
 }
 
 header {
@@ -39,7 +42,7 @@ p {
   align-items: center;
   gap: 20px;
   background-color: rgb(180, 180, 180);
-  padding: 20px 10px 20px 10px;
+  padding: 20px 0px 20px 0px;
   margin-top: 50px;
 }
 
@@ -51,6 +54,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  padding: 0px 10px 0px 10px;
 }
 
 .technologies-item h5 {
@@ -60,6 +64,7 @@ p {
 .technologies-item .bx {
   font-size: 2rem;
 }
+
 .container-media-project {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -77,6 +82,18 @@ p {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 10px;
+}
+
+.container-media-project-solarapp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+
+.container-media-project-solarapp img {
+  width: 100%; 
+  height: auto;
 }
 
 .container-media-project-unibarranquilla img {
@@ -136,6 +153,10 @@ footer {
     max-width: 800px;
   }
   .profile-img {
-    width: 70%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: calc(50% - 75px);
+    object-fit: cover;
   }
 }
