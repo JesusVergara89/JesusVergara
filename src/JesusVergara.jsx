@@ -27,13 +27,21 @@ function App() {
     <div className="portafolio">
 
       <header>
+        <br />
+        <br />
         <h1>Jesus Manuel Vergara</h1>
+        <br />
+        <br />
+        <br />
+        <br />
         <p>Welcome to my portfolio. Here you can find some of my projects and learn more about me.</p>
+        <br />
+        <br />
+
       </header>
 
       <main>
         <section>
-          <img className='profile-img' src={jesus} alt="" />
           <h2>About Me</h2>
           <p>I am a mechatronics engineer passionate about programming and creating designs in the form of websites. I enjoy exploring different programming languages and discovering the possibilities they offer. My goal is to combine my technical and creative skills to develop innovative and functional solutions in web design.</p>
           <h2>Technologies I specialize in</h2>
@@ -195,6 +203,7 @@ function App() {
           <p><strong>Description:</strong> As a Frontend Developer, my main responsibility was to develop custom web pages, adhering to designs provided and using technologies like React. Additionally, I worked collaboratively within a team environment on various projects, including BarmexApp. I managed code versions using tools like Git to ensure efficient collaboration and application stability. Excelling under pressure, I consistently met deadlines and delivered high-quality products in a dynamic and demanding environment.</p>
         </div>
       </div>
+      <img className='profile-img' src={jesus} alt="" />
       <footer>
         <p>Contact me: jesusmanuelv1989@gmail.com</p>
         <p>Follow me on social media: <a href="https://github.com/JesusVergara89" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://www.linkedin.com/in/jesus-manuel-vergara-975799216/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
