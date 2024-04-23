@@ -1,4 +1,4 @@
-import jesus from './images/jesus.jpeg'
+import jesus from './images/jesus.jpg'
 import sn1 from './images/1.jpeg'
 import sn2 from './images/2.jpeg'
 import sn3 from './images/3.jpeg'
