@@ -1,10 +1,10 @@
 import jesus from './images/jesus.jpg'
-import sn1 from './images/1.jpeg'
-import sn2 from './images/2.jpeg'
-import sn3 from './images/3.jpeg'
-import sn4 from './images/4.jpeg'
-import sn5 from './images/5.jpeg'
-import sn6 from './images/6.jpeg'
+import sn1 from './images/1.png'
+import sn2 from './images/2.png'
+import sn3 from './images/3.png'
+import sn4 from './images/4.png'
+import sn5 from './images/5.png'
+import sn6 from './images/6.png'
 
 import sn1p from './images/1p.jpeg'
 import sn2p from './images/2p.jpeg'
@@ -19,6 +19,13 @@ import ss1p from './images/1s.jpeg'
 import ss2p from './images/2s.jpeg'
 import ss3p from './images/3s.jpeg'
 import ss4p from './images/4s.jpeg'
+
+import ss1c from './images/1c.png'
+import ss2c from './images/2c.png'
+import ss3c from './images/3c.png'
+import ss4c from './images/4c.png'
+import ss5c from './images/5c.png'
+import ss6c from './images/6c.png'
 
 
 function App() {
@@ -94,7 +101,7 @@ function App() {
           <ul>
             <li>
               <h3>Design and construction of the social network - Social</h3>
-              <p>"Social" is a social network designed and built to offer users an interactive and dynamic platform to connect, share content, and communicate online. With a focus on usability and user experience, this social network provides a wide range of features and functionalities to meet the needs of its users.</p>
+              <p>"Eco-Social" Ecosocial is more than just a social network; it's a space where you can connect with people who share your commitment to the 3Rs: reduce, reuse, and recycle. We focus on implementing environmental action plans, from tree planting events to promoting the reuse of items in good condition or those that can be recovered to benefit other users and prevent waste. In Ecosocial, every interaction matters, and our connections are rooted in the common purpose of preserving our planet. Join us in this mission to shape a more sustainable future, where our online actions make a positive impact beyond the screen. Welcome to Ecosocial, where authentic connections and meaningful actions transform the world.</p>
               <p><span>Features:</span></p>
               <ul>
                 <li><span>Account registration:</span> Users can easily create an account on "Social" by providing basic information and a valid email address.</li>
@@ -176,6 +183,39 @@ function App() {
               <br />
               <br />
               <a href="https://barmexapp.netlify.app/" target="_blank" rel="noopener noreferrer">View project: BarmexApp</a>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </li>
+
+            <li>
+              <h3>Design and construction of a e-commerce for a secondhand products.</h3>
+              <p>Grandma's Memories is a e-commerce project dedicated to offering you secondhand treasures and cherished finds. Dive into a world where nostalgia meets practicality, where every item has a story to tell and a new home to find. At Grandma's Memories, we believe in the beauty of preloved items and the magic they bring into our lives. Whether you're searching for vintage decor to add character to your home, gently used clothing that tells a tale of its own, or unique trinkets that spark joy, you'll find it here. Browse through our carefully curated collection of secondhand goods, each meticulously selected to ensure quality and charm. Every item has been loved before and is waiting to be loved again in its new home.</p>
+              <p><span>Features:</span></p>
+              <ul>
+                <li><span>Create New Products:</span> Easily add new products to your inventory with detailed descriptions, images, and pricing.</li>
+                <li><span>Edit Products:</span> Update product information such as descriptions, prices, and stock levels.</li>
+                <li><span>Delete Products:</span> Remove products from your inventory that are no longer available or needed.</li>
+                <li><span>Add to Cart:</span> Allow customers to select and add products to their shopping cart for purchase.</li>
+                <li><span>Purchase Products:</span> Enable customers to complete their transactions securely through various payment methods.</li>
+                <li><span>Add Quantities:</span> Adjust the quantities of products in the shopping cart to meet customer needs.</li>
+                <li><span>Admin-Only Functions:</span> Grant exclusive access to administrative functions such as managing users, viewing sales reports, and overseeing inventory control.</li>
+              </ul>
+              <div className="container-media-project-solarapp">
+                <img src={ss1c} alt="" />
+                <img src={ss2c} alt="" />
+                <img src={ss3c} alt="" />
+                <img src={ss4c} alt="" />
+                <img src={ss5c} alt="" />
+                <img src={ss6c} alt="" />
+              </div>
+              <br />
+              <br />
+              <br />
+              <a href="https://losrecuerdosdelaabuela.netlify.app/" target="_blank" rel="noopener noreferrer">View project: Los recuerdos de la abuela</a>
               <br />
               <br />
               <br />
